@@ -33,7 +33,7 @@ def add_expense(expenses):
     description = input("Enter description: ")
     amount = input("Enter amount: ")
     expenses.append([date, category, description, amount])
-    print("Expense added successfully.")
+    print("Expense added successfully")
 
 def delete_expense(expenses):
     view_expenses(expenses)
@@ -57,7 +57,7 @@ def main():
             delete_expense(expenses)
         elif choice == "4":
             save_expenses(expenses)
-            print("Exiting...")
+            print("Exiting")
             break
         else:
             print("Invalid choice. Please try again.")
